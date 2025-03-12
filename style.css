@@ -157,6 +157,7 @@ ul {
     padding: 4% 8%;
     font: var(--fonte-style-secudary);
     font-size: 1.25rem;
+    font-weight: 700;
     color: var(--color-white);
     background-color: var(--color-button);
     
