@@ -6,6 +6,11 @@
     --color-button-hover: #940a6b;
     --color-text: #f7f7f7;
     --color-white: #FFFFFF;
+
+
+    --fonte-style-primary: normal 400 1em/1.5 "Modak", serif;
+    --fonte-style-secudary: normal 400 1em/1.5 "Inter", serif;
+
 }
 
 /* Estilos gerais */
@@ -59,16 +64,14 @@ header img{
 
 /* Títulos */
 .main-title {
-    font-size: 64px;
-    font-family: "Modak", serif;
-    font-weight: 400;
-    font-style: normal;
+    font: var(--fonte-style-primary);
+    font-size: 4rem;
     color: #bd1089;
 }
 
 .section-title {
-    font-family: "Inter", serif;
-    font-size: 36px;
+    font: var(--fonte-style-secudary);
+    font-size: 2.25rem;
     font-weight: 700;
     color: var(--color-white);
     margin: 10px 0;
@@ -80,7 +83,7 @@ header img{
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 40%;
     margin-top: 20px;
 }
 
@@ -89,12 +92,12 @@ header img{
     padding: 10px;
     border: none;
     border-radius: 16px 0 0 16px;
-    font-size: 16px;
+    font-size: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
 
 .button-container {
-    width: 300px;
+    width: 20%;
     justify-content: center;
 }
 
@@ -102,7 +105,7 @@ header img{
 .input-title {
     flex: 1;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 1rem;
     border-right: none;
     border-radius: 16px 0 0 16px;
     font-family: "Merriweather", serif;
@@ -111,8 +114,8 @@ header img{
 /* Estilos de botão */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font: var(--fonte-style-secudary);
+    font-size: 1.125rem;
     border: none;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -133,15 +136,15 @@ button {
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font: var(--fonte-style-secudary);
+    font-size: 1.125rem;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
     color: #05DF05;
-    font-size: 22px;
+    font-size: 1.38rem;
     font-weight: bold;
     text-align: center;
 }
@@ -152,11 +155,11 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    font-family: "Modak", serif;
-    font-weight: normal;;
+    font: var(--fonte-style-primary);
+    font-size: 1.25rem;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 20px;
+    
 }
 
 .button-draw img {
@@ -178,7 +181,8 @@ input:focus{
     align-items: center;
     gap: 35px;
     padding: 15px;
-    font-family: "Inter", sans-serif;
+    font: var(--fonte-style-secudary);
+    font-size: 1rem;
     font-weight: 700;
     background-color: var(--color-button);
     color: var(--color-text);
@@ -186,5 +190,6 @@ input:focus{
 
 .rodape a{
     color: var(--color-text);
+    font-weight: bold;
     text-decoration: none;
 }
