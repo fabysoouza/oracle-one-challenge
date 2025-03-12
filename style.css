@@ -19,9 +19,7 @@
 body {
     height: 100vh;
     background-color: var(--color-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 header img{
@@ -30,6 +28,8 @@ header img{
 
 .main-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -169,4 +169,22 @@ ul {
 
 input:focus{
     outline: none;
+}
+
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background-color: var(--color-button);
+    color: var(--color-text);
+}
+
+.rodape a{
+    color: var(--color-text);
+    text-decoration: none;
 }
