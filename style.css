@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: 5px;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 header img{
-    height: 240px;
+    height: 55%;
 }
 
 .main-content {
@@ -46,26 +46,26 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 3% 0 0;
 }
 
 /* Seção de entrada */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    margin: 8px;
+    margin: 1%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 3%;
     width: 100%;
 }
 
 /* Títulos */
 .main-title {
     font: var(--fonte-style-primary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #bd1089;
 }
 
@@ -74,7 +74,7 @@ header img{
     font-size: 2.25rem;
     font-weight: 700;
     color: var(--color-white);
-    margin: 10px 0;
+    margin: 1% 0;
     text-align: center;
 }
 
@@ -84,12 +84,12 @@ header img{
     justify-content: center;
     width: 100%;
     max-width: 40%;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .input-name {
     width: 100%;
-    padding: 10px;
+    padding: 1% 2%;
     border: none;
     border-radius: 16px 0 0 16px;
     font-size: 1rem;
@@ -104,7 +104,7 @@ header img{
 /* Estilos de entrada de texto */
 .input-title {
     flex: 1;
-    padding: 10px 15px;
+    padding: 8% 20%;
     font-size: 1rem;
     border-right: none;
     border-radius: 16px 0 0 16px;
@@ -113,7 +113,7 @@ header img{
 
 /* Estilos de botão */
 button {
-    padding: 15px 30px;
+    padding: 3% 8%;
     font: var(--fonte-style-secudary);
     font-size: 1.125rem;
     border: none;
@@ -138,7 +138,7 @@ ul {
     color: var(--color-text);
     font: var(--fonte-style-secudary);
     font-size: 1.125rem;
-    margin: 20px 0;
+    margin: 1% 0;
 }
 
 .result-list {
@@ -154,7 +154,7 @@ ul {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 10px 40px;
+    padding: 4% 8%;
     font: var(--fonte-style-primary);
     font-size: 1.25rem;
     color: var(--color-white);
@@ -176,11 +176,11 @@ input:focus{
 
 .rodape{
     width: 100%;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
-    gap: 35px;
-    padding: 15px;
+    gap: 2%;
+    padding: 5px;
     font: var(--fonte-style-secudary);
     font-size: 1rem;
     font-weight: 700;
