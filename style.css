@@ -52,7 +52,6 @@ header img{
 /* Seção de entrada */
 .input-section {
     flex: 60%;
-    height: 60%;
     background-color: var(--color-secondary);
     margin: 1%;
     border-radius: 20px;
